@@ -1,0 +1,67 @@
+/*@font-face {
+  font-family: myriad-pro;
+  src: url(bower_components/fonts/MyriadPro-Regular.otf);
+}*/
+* {
+  font-family: myriad-pro,sans-serif;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+header .logo {
+  padding: 20px 0;
+}
+footer {
+  font-size: 13px;
+  width: 100%;
+  text-align: center;
+  padding-top: 6px;
+  margin-bottom: 58px;
+}
+.radio-container button {
+   margin: 0 5px 0 5px;
+}
+.radio-container .radio-row ul li {
+  margin: 0 0 10px 0;
+}
+.radio-container .radio-space {
+  position: absolute;
+  padding: 10px 20px;
+}
+.radio-container .radio-content {
+  display: inline-block; 
+  width: 100%;
+  text-align: center;
+}
+.radio-container .radio-list {
+  border:1px solid #9D9D9D;
+  border-radius: 5px;
+}
+
+.radio-container .input-label {
+  border:none; 
+  background-color: white; 
+  text-align: center;
+  color: #000;
+}
+
+.alert-empty {
+  color: #3f3f3f;
+  background-color: #f4f3f3;
+  border-color: #bbbbbb;
+}
+
+.single-list .alert {
+  font-size: 16px;
+}
+
+.single-list ul li .table th:nth-child(1){
+  width: 50%;
+}
+
+.single-list .accordion-label .glyphicon {
+  margin-top:3px;
+}
+
